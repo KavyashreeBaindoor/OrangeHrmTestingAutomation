@@ -1,4 +1,4 @@
-package com.BankingUtilities;
+package com.OrangeHrmUtilities;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -25,7 +25,7 @@ public class ReadDataFromExcelFile {
 	
 	@DataProvider(name="getData")
 	public String[][] readExcelData() throws IOException {
-	File excelFile=new File(System.getProperty("user.dir")+"/src/test/java/com/bankingTestData/LoginData.xlsx");
+	File excelFile=new File(System.getProperty("user.dir")+"/src/test/java/com/OrangeHrmTestData/LoginData.xlsx");
 	fi=new FileInputStream(excelFile);
 	wb=new XSSFWorkbook(fi);
 	ws =wb.getSheetAt(0);

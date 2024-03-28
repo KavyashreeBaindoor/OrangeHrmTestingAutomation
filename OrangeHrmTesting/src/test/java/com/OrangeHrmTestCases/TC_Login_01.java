@@ -1,4 +1,4 @@
-package com.bankingTestCases;
+package com.OrangeHrmTestCases;
 
 import java.awt.Robot;
 import java.awt.Toolkit;
@@ -13,8 +13,8 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.BankingUtilities.ReadDataFromExcelFile;
-import com.bankinPageObjects.LoginPage;
+import com.OrangeHrmPageObjects.LoginPage;
+import com.OrangeHrmUtilities.ReadDataFromExcelFile;
 
 public class TC_Login_01 extends BaseClass{
 	

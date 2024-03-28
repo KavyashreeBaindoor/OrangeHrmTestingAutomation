@@ -1,4 +1,4 @@
-package com.bankinPageObjects;
+package com.OrangeHrmPageObjects;
 
 
 

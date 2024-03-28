@@ -1,4 +1,4 @@
-package com.bankingTestCases;
+package com.OrangeHrmTestCases;
 
 import java.io.File;
 import java.io.IOException;
@@ -22,8 +22,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 
-import com.BankingUtilities.readConfig;
-import com.bankinPageObjects.LoginPage;
+import com.OrangeHrmPageObjects.LoginPage;
+import com.OrangeHrmUtilities.readConfig;
 
 
 

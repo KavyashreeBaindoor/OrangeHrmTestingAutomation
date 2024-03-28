@@ -1,4 +1,4 @@
-package com.BankingUtilities;
+package com.OrangeHrmUtilities;
 
 import java.io.File;
 import java.io.FileInputStream;
